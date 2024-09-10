@@ -2,7 +2,7 @@ shader_type canvas_item;
 
 uniform float wave_speed = 3.0; //wave loop speed
 uniform float wave_freq = 10.0; //wave vertical freq
-uniform float wave_width = 1; //wave width 
+uniform float wave_width = 1; //wave width
 void fragment(){
 	vec2 scale_UV = SCREEN_UV;
 	vec2 wave_uv_offset;
